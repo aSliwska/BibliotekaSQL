@@ -1,0 +1,4 @@
+Władysława;Filomena;Leona;Józefa;Bogna;Juliana;Fiona
+Włodzimierz;Waldemar;Ireliusz;Herbert;Radosław;Alfred;Aureliusz
+Wierciszewska;Świrgiel;Swędrowska;Sułecka;Mszyca;Mądrzyk;Leman
+Kondziołka;Karolczuk;Jarmużek;Sypuła;Sontowski;Fidor;Tokaj

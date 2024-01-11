@@ -1,0 +1,14 @@
+INSERT INTO autor (imie, nazwisko) VALUES ('Władysława', 'Wierciszewska');
+INSERT INTO autor (imie, nazwisko) VALUES ('Włodzimierz', 'Kondziołka');
+INSERT INTO autor (imie, nazwisko) VALUES ('Filomena', 'Świrgiel');
+INSERT INTO autor (imie, nazwisko) VALUES ('Waldemar', 'Karolczuk');
+INSERT INTO autor (imie, nazwisko) VALUES ('Leona', 'Swędrowska');
+INSERT INTO autor (imie, nazwisko) VALUES ('Ireliusz', 'Jarmużek');
+INSERT INTO autor (imie, nazwisko) VALUES ('Józefa', 'Sułecka');
+INSERT INTO autor (imie, nazwisko) VALUES ('Herbert', 'Sypuła');
+INSERT INTO autor (imie, nazwisko) VALUES ('Bogna', 'Mszyca');
+INSERT INTO autor (imie, nazwisko) VALUES ('Radosław', 'Sontowski');
+INSERT INTO autor (imie, nazwisko) VALUES ('Juliana', 'Mądrzyk');
+INSERT INTO autor (imie, nazwisko) VALUES ('Alfred', 'Fidor');
+INSERT INTO autor (imie, nazwisko) VALUES ('Fiona', 'Leman');
+INSERT INTO autor (imie, nazwisko) VALUES ('Aureliusz', 'Tokaj');
