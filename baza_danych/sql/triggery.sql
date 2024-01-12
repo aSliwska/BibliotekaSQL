@@ -144,19 +144,3 @@ $$ LANGUAGE 'plpgsql';
 
 CREATE TRIGGER poprawnosc_telefonu BEFORE INSERT OR UPDATE ON czytelnik 
 FOR EACH ROW EXECUTE PROCEDURE sprawdz_telefon();
-
--- wplacana kwota musi byc wieksza od zera
-CREATE OR REPLACE FUNCTION sprawdz_kwote()
-RETURNS TRIGGER AS $$
-    BEGIN
-        IF (NEW.kwota <= 0) THEN
-            RAISE EXCEPTION 'Kwota musi być większa od zera.';
-            RETURN NULL;
-        END IF;
-
-        RETURN NEW;
-    END;
-$$ LANGUAGE 'plpgsql';
-
-CREATE TRIGGER kwota_wieksza_od_zera BEFORE INSERT OR UPDATE ON wplata 
-FOR EACH ROW EXECUTE PROCEDURE sprawdz_kwote();

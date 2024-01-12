@@ -67,7 +67,7 @@ CREATE TABLE gatunek (
     gatunek_rodzic_id INTEGER,
     nazwa VARCHAR(32) NOT NULL,
     CONSTRAINT gatunek_pk PRIMARY KEY(gatunek_id),
-    CONSTRAINT gatunek_gatunek_rodzic_id_fk FOREIGN KEY(gatunek_rodzic_id) REFERENCES gatunek(gatunek_id)
+    CONSTRAINT gatunek_gatunek_rodzic_id_fk FOREIGN KEY(gatunek_rodzic_id) REFERENCES gatunek(gatunek_id) ON DELETE SET NULL
 );
 
 CREATE TABLE gatunek_ksiazki (
